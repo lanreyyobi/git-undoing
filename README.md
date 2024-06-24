@@ -39,36 +39,5 @@
     $ git config --global user.signingkey [THIS_KEY_ID]
     $ git config --global commit.gpgsign true
 
-**f) Creating a custom commit message:**
 
-- i) Edit the .gitconfig file to point git to the template we are creating:
 
-       $ git config --global commit.template ~/.gitmessage
-    
- - Alternatively, you can VI into .gitconfig file and add the contents below.
-
-         [commit]
-         template = ~/.gitmessage
-
-- ii) Create a template in ~/.gitmessage file:
-```
-########50 characters############################
-Scope / Description with fix, feat (SemVer)
-Contributing-to: https://kennedymakhanu1.atlassian.net/browse/<JIRA-TICKET>
-########72 characters##################################################
-Problem
-# Problem, Task, Reason for Commit
-Solution
-# Solution or List of Changes
-Note
-# Special instructions, testing steps, rake, etc
-```
-
-- c) Now when you commit any updates, only type git commit and the editor will pop up for you to provide the context:
-
-       $ git commit
-
-**2. Using SSH keys:**
-- You can find instructions on how to use ssh keys from the link below.
-
-   [Using SSH Keys](https://dev.to/pwd9000/github-commit-verification-using-ssh-2pim)
