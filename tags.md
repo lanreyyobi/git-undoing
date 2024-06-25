@@ -3,6 +3,8 @@
 https://semver.org/
 ```yaml
 v1.0.0
+Major . Minor .   Patch
+fix:   Feat:   BREAKING CHANGE:
 ```
 **b) Creating a tag**
 
