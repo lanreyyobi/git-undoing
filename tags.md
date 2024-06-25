@@ -1,6 +1,5 @@
 **a) Semantic versioning**
-[
-](https://semver.org/)
+[](https://semver.org/)
 
 ```yaml
 v1.0.0
